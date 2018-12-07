@@ -4,9 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
-flask-bootstrap = "*"
 pandas = "*"
+gunicorn = "*"
+scikit-learn = "*"
+Flask = "*"
+Flask-Bootstrap = "*"
 
 [dev-packages]
 
